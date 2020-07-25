@@ -61,6 +61,18 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
+  fonts:
+    - family: Bariol
+      fonts:
+        - asset: fonts/bariol_bold_italic-webfont.ttf
+        - asset: fonts/bariol_light_italic-webfont.ttf
+        - asset: fonts/bariol_light-webfont.ttf
+        - asset: fonts/bariol_regular_italic-webfont.ttf
+        - asset: fonts/bariol_regular-webfont.ttf
+        - asset: fonts/bariol_thin_italic-webfont.ttf
+        - asset: fonts/bariol_thin-webfont.ttf
+        - asset: fonts/bariol_bold-webfont.ttf
+        
   # fonts:
   #   - family: Schyler
   #     fonts:

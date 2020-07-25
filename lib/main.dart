@@ -11,13 +11,15 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Agenda',
       theme: ThemeData(
+        fontFamily: 'Bariol',
         primaryColor: Colors.white,
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
+        textTheme: TextTheme(
+          bodyText2: TextStyle(color: Colors.white),
+        ),
       ),
       home: Home(title: 'Agenda Pet 🐶'),
     );
   }
 }
-
-

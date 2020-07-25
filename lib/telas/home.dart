@@ -25,16 +25,14 @@ class _HomeState extends State<Home> {
         child: ListView(
           //TODO: Mudar para um builder e adicionar o ListView.separated
           children: <Widget>[
-            Text(
-              'Agenda:',
-            ),
-            CardAgenda(
-              corBG: Colors.red,
-            ),
-            CardAgenda(
-              corBG: Colors.blue,
-            ),
-            CardAgenda(corBG: Colors.green),
+            CardAgenda(),
+            CardAgenda(),
+            CardAgenda(),
+            CardAgenda(),
+            CardAgenda(),
+            CardAgenda(),
+            CardAgenda(),
+            CardAgenda(),
           ],
         ),
       ),
