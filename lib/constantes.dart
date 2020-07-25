@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 final TextStyle kTituloHora = TextStyle(
-  fontSize: 15.0,
+  fontSize: 20.0,
   letterSpacing: 3.0,
 );
 
